@@ -1,11 +1,5 @@
 const FriendList = () => {
-  return (
-    <section>
-      <div>
-        <h1>FriendList</h1>
-      </div>
-    </section>
-  );
+  return <section></section>;
 };
 
 export default FriendList;
