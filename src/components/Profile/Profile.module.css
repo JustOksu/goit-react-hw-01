@@ -51,12 +51,11 @@
   flex-direction: column;
   align-items: center;
   width: 100px;
-  border-right: 1px solid #000000;
 }
 
-/* .stats li:last-child {
+.stats li:last-child {
   border-right: none;
-} */
+}
 
 .label {
   font-weight: 500;
