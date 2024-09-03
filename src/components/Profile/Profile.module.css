@@ -6,6 +6,7 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: center;
   border: 1px solid #000000;
+  margin-top: 10px;
 }
 
 .description {
@@ -16,12 +17,12 @@
   width: 120px;
   height: 120px;
   border-radius: 50%;
+  background-color: #221e1e;
 }
 
 .name {
   font-weight: 700;
   font-size: 24px;
-  color: #000000;
   margin-bottom: 10px;
 }
 
@@ -40,10 +41,9 @@
 
 .stats {
   display: flex;
-  justify-content: center;
+  padding: 0px;
   background-color: #f3f3f3;
-  padding: inherit;
-  border: 1px solid #000000;
+  margin-bottom: 10px;
 }
 
 .stats li {
@@ -51,10 +51,14 @@
   flex-direction: column;
   align-items: center;
   width: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid #000000;
 }
 
 .stats li:last-child {
   border-right: none;
+  border-left: none;
 }
 
 .label {
